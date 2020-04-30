@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  background-color: #C3E4ED;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pic {
+  width: 23%;
+  margin: 1%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pictureContainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  width: 98%;
+  padding: 1%;
+  background-color: #C3E4ED;
+}
+
+.profile{
+  padding: 1%;
+  width: 48%;
+}
+
+.intro {
+  display: flex;
+  alight-item: center;
+}
+
+.pageHolder {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.page{
+  min-height: 78vh;
+  width: 70%;
+  background-color: #C3E4ED;
+  flex-direction: col;
+  padding: 2%;
+}
+
+.navbar{
+  background-color: #C3E4ED;
+  width: 98%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.navbutton{
+  text-decoration: none;
   color: white;
+  background-color: #88c7dc;
+  border-radius: 5px;
+  padding: 1%;
+  width:  15%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbutton:hover {
+  color: #88c7dc;
+  background-color: white;
 }
