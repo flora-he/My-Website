@@ -1,27 +1,69 @@
 .App {
   text-align: center;
-  background-color: #C3E4ED;
+  background-color: #e0ebe8;
+}
+
+.headerFont {
+  font-family:Times, Times New Roman, Georgia, serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.1;
+  color: #88c7dc;
+}
+
+.paraFont {
+  font-family: Times, Times New Roman, Georgia, serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #88c7dc;
+}
+
+.homePagePic {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .pic {
-  width: 23%;
+  width: 48%;
+  height: auto;
   margin: 1%;
 }
 
-.pictureContainer{
+.row{
   display: flex;
   flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 48%;
+  max-width: 48%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .footer {
   width: 98%;
   padding: 1%;
-  background-color: #C3E4ED;
+  background-color: #e0ebe8;
+  color: #88c7dc;
+  font-weight:500;
+  /*--another color i like: C3E4ED;//*/
 }
 
 .profile{
   padding: 1%;
-  width: 48%;
+  width: 90%;
+  font-weight: 500;
+  color: #88c7dc;
 }
 
 .intro {
@@ -36,18 +78,18 @@
 
 .page{
   min-height: 78vh;
-  width: 70%;
-  background-color: #C3E4ED;
+  width: 96%;
+  background-color: #e0ebe8;
   flex-direction: col;
   padding: 2%;
 }
 
 .navbar{
-  background-color: #C3E4ED;
+  background-color: #e0ebe8;
   width: 98%;
   display: flex;
   justify-content: space-around;
-  padding: 1%;
+  padding: 3%;
 }
 
 .navbutton{

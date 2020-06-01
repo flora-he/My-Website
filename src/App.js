@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import HomePage from './pages/HomePage.js';
-import Contact from './pages/contact.js';
+import Contact from './pages/Contact.js';
 import PicturesPage from './pages/PicturesPage.js';
 import AboutPage from './pages/about.js';
 
